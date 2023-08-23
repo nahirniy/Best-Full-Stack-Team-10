@@ -9,10 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -26,10 +22,69 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input {
+  font-family: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Roboto';
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--blue-font);
+  background-color: var(--white);
+  font-size: 16px;
+}
+
+.container {
+  max-width: 375px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--blue-font);
+  font-size: 28px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 12px 65px;
+  color: var(--white);
+  background-color: var(--blue-font);
+}
+
+.logo-icon {
+  width: 100px;
+  height: 16px;
+  fill: var(--blue-font);
 }
