@@ -342,6 +342,9 @@
     .footer-nav {
         display: flex;
         flex-direction: row;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
         margin-top: 44px;
         gap: 30px;
     }
@@ -350,12 +353,18 @@
         gap: 24px;
         display: flex;
         flex-direction: column;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
     }
 
     .footer-info-class {
         display: flex;
         flex-wrap: wrap;
         row-gap: 24px;
+        font-size: 19px;
+        font-weight: 400;
+        font-family: "Roboto", sans-serif;
     }
 
     .footer-address-link {
@@ -370,13 +379,14 @@
         text-align: center;
         font-weight: 400;
         font-family: "Roboto", sans-serif;
+        margin-top: 35px;
     }
 
     .modal-check-link {
         text-decoration-line: underline;
     }
-     .footer-list-item {
+    .footer-list-item {
         text-wrap: nowrap;
-     }
+    }
 }
 
