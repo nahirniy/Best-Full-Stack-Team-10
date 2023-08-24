@@ -1,1 +1,145 @@
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 16px;
+}
+.header-menu {
+  display: none;
+}
+.link-logo {
+  display: flex;
+  padding: 36px 0;
+}
+.link-logo-menu {
+  display: flex;
+}
+.burger {
+  stroke: var(--blue-font, #0a224a);
+}
+.open-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-left: auto;
+  transition: background-color 300ms ease-in-out;
+}
+.open-menu:hover,
+.open-menu:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px 16px 0px 16px;
+  background-color: #ffffff;
+  z-index: 999;
+  transform: translateX(-100%);
+  transition: transform 300ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0);
+}
+
+.close-menu {
+  stroke: #0a224a;
+  stroke: var(--blue-font, #0a224a);
+}
+.logo-menu {
+  display: flex;
+  align-items: center;
+}
+.link-logo-menu {
+  margin-right: auto;
+}
+.close-btn {
+  margin-left: auto;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding: 8px;
+  margin-top: 122px;
+}
+.menu-list-link:hover,
+.menu-list-link:focus {
+  color: var(--grey-cl, #d9d9d9);
+  transition: color 300ms ease-in-out;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+  .logo,
+  .logo-menu-open {
+    width: 127px;
+  }
+  .header-menu {
+    display: none;
+  }
+  .menu-list {
+    gap: 30px;
+  }
+  .mobile-menu {
+    padding: 30px 32px 0px 32px;
+  }
+  .burger {
+    width: 40px;
+    height: 40px;
+  }
+  .open-menu {
+    width: 55px;
+    height: 55px;
+  }
+  .close-menu {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1352px;
+  }
+  .header-menu {
+    display: flex;
+    margin-left: auto;
+  }
+  .header-list {
+    display: flex;
+    gap: 30px;
+  }
+  .header-list-link {
+    font-size: 18px;
+    padding: 26px 0;
+  }
+  .header-list-link:hover,
+  .header-list-link:focus {
+    color: var(--grey-cl, #d9d9d9);
+    transition: color 300ms ease-in-out;
+  }
+  .open-menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+}
