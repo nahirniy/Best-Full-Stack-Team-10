@@ -65,6 +65,7 @@
 .logo-menu {
   display: flex;
   align-items: center;
+  padding-bottom: 28px;
 }
 .link-logo-menu {
   margin-right: auto;
@@ -78,7 +79,7 @@
   align-items: center;
   gap: 17px;
   padding: 8px;
-  margin-top: 122px;
+  margin-top: 114px;
 }
 .menu-list-link:hover,
 .menu-list-link:focus {
@@ -101,6 +102,9 @@
   }
   .mobile-menu {
     padding: 30px 32px 0px 32px;
+  }
+  .menu-list {
+    margin-top: 150px;
   }
   .burger {
     width: 40px;
