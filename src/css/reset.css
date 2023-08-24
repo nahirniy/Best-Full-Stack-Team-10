@@ -54,6 +54,12 @@ address {
   overflow: hidden;
 }
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
