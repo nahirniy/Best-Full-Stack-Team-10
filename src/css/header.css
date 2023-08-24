@@ -94,15 +94,16 @@
   padding: 15px;
 }
 .header-list-link:hover,
-.header-list-link:focus{
-  color: var(--dark-grey, #B6B6B6);
+.header-list-link:focus {
+  color: var(--dark-grey, #b6b6b6);
 }
-.menu-list-link{
+.menu-list-link {
   padding: 15px;
+  color: var(--blue-font, #0a224a);
 }
 .menu-list-link:hover,
-.menu-list-link:focus{
-  color: (--dark-grey, #B6B6B6);
+.menu-list-link:focus {
+  color: var(--dark-grey, #b6b6b6);
 }
 @media (min-width: 768px) {
   .container {
