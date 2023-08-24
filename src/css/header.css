@@ -9,13 +9,10 @@
 .header-menu {
   display: none;
 }
+.logo {
+}
 .link-logo {
   padding: 36px 0;
-}
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 
 .burger {
@@ -32,9 +29,9 @@
   border: none;
   outline: none;
   border-radius: 50%;
-  margin-left: auto;
   width: 40px;
   height: 40px;
+  margin-left: auto;
 }
 .open-menu:hover,
 .open-menu:focus {
@@ -45,6 +42,9 @@
 .mobile-menu {
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   left: -100%;
   width: 100%;
   height: 100%;
@@ -64,6 +64,7 @@
 .mobile-menu-container {
 }
 .close-menu {
+  stroke: #0a224a;
   stroke: var(--blue-font, #0a224a);
 }
 .logo-menu {
@@ -71,7 +72,6 @@
   position: absolute;
   left: 4%;
 }
-
 .close-btn {
   position: absolute;
   right: 3%;
@@ -91,6 +91,7 @@
 }
 
 .header-list-link {
+  color: var(--blue-font, #0a224a);
   color: var(--blue-font, #0a224a);
   font-family: 'Roboto' sans-serif;
   font-size: 16px;
@@ -133,6 +134,7 @@
   .header-list-item {
   }
   .header-link {
+    color: var(--blue-font, #0a224a);
     color: var(--blue-font, #0a224a);
     font-family: 'Roboto' sans-serif;
     font-size: 18px;
