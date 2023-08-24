@@ -18,7 +18,7 @@
         <symbol id="icon-burger-menu" viewBox="0 0 32 32">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M28 13.333H4M28 8H4M28 18.667H4M28 24H4"/>
         </symbol>
-        <symbol id="icon-logo" viewBox="0 0 200 32">
+        <symbol id="icon-logo" viewBox="0 0 250 32">
             <path d="M0 28V0h4.989l12.323 9.085h.186L29.821 0h4.989v28h-5.957V7.832l-8.451 5.952v14.215h-5.957V13.784L5.956 7.832V28H-.001zM40.403 28V0h5.957v28h-5.957zM51.937 28V0h6.031l18.839 20.129V0h5.957v28h-6.031L57.894 7.832V28h-5.957zM88.34 28V0h5.957v28H88.34zM99.874 28V0h4.989l12.323 9.085h.186L129.695 0h4.989v28h-5.957V7.832l-8.451 5.952v14.215h-5.957V13.784l-8.489-5.952V28h-5.957zM138.043 28l11.988-28h9.196l11.988 28h-6.478l-2.532-5.913h-15.153L144.52 28h-6.478zm11.169-11.004h10.834l-5.175-12.101h-.484l-5.175 12.101zM174.571 28V0h5.957v22.909H200V28h-25.429z"/>
         </symbol>
         <symbol id="icon-error" viewBox="0 0 32 32">
