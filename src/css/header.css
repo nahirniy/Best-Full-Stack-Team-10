@@ -44,7 +44,7 @@
   width: 100vw;
   height: 100vh;
   padding: 80px 40px 40px;
-  background-color: var(--white);
+  background-color: #ffffff;
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
@@ -60,9 +60,16 @@
 .close-menu {
   stroke: #0a224a;
 }
+.logo-menu{
+  top: 4%;
+  position: absolute;
+  left: 4%;
+}
+
 .close-btn {
   position: absolute;
   right: 3%;
+  top: 3%;
 }
 .menu-list {
   display: flex;
