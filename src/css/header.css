@@ -121,8 +121,6 @@
   }
   .header-menu {
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin-left: auto;
   }
   .header-list {
@@ -130,12 +128,7 @@
     gap: 30px;
   }
   .header-list-link {
-    color: var(--blue-font, #0a224a);
-    font-family: 'Roboto' sans-serif;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
     padding: 26px 0;
   }
   .header-list-link:hover,
