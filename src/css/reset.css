@@ -55,7 +55,7 @@ address {
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: var(--blue-font);
@@ -65,7 +65,7 @@ body {
 
 .container {
   max-width: 375px;
-  padding: 0 15px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
