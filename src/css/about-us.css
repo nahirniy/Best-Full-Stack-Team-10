@@ -26,9 +26,9 @@
   height: 1px;
 }
 
-/* .container-wrap {
+.container-wrap {
   width: 343px;
-} */
+}
 
 .about-us-title {
   line-height: 1.5;
@@ -45,7 +45,7 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  margin-bottom: 64px;
+  /* margin-bottom: 64px; */
 }
 
 .about-us-item {
@@ -77,12 +77,12 @@
   }
 
   .about-us-top-side {
-    padding: 36px 64px;
+    /* padding: 36px 64px; */
   }
 
-  /* .container-wrap {
+  .container-wrap {
     width: 576px;
-  } */
+  }
 
   .about-us-title {
     font-size: 32px;
