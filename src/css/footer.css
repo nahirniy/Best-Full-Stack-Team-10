@@ -341,9 +341,10 @@
     .footer-menu {
         justify-content: normal;
         display: inline-flex;
-        padding-left: 8px;
+        width: 518px;
         align-items: center;
         gap: 30px;
+        padding: 0;
     }
 
     .footer-socials-icons {
