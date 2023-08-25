@@ -6,8 +6,6 @@ img {
 .container {
   width: 100%;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .bestsellers-section {
@@ -41,7 +39,7 @@ img {
 
 .bestsellers-img {
   margin-bottom: 14px;
-  max-width: 343px;
+  width: 343px;
   height: 193px;
 }
 
@@ -69,9 +67,7 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 100%;
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
+    max-width: 704px;
   }
 
   .bestsellers-title {
@@ -122,12 +118,7 @@ img {
 @media screen and (min-width: 1440px) {
   .container {
     width: 100%;
-    max-width: 1440px;
-  }
-
-  .bestsellers-section {
-    padding-right: 140px;
-    padding-left: 140px;
+    max-width: 1320px;
   }
 
   .bestsellers-list {
@@ -141,19 +132,24 @@ img {
   }
 
   .bestsellers-main-img {
-    max-width: 536px;
+    width: 536px;
     height: 495px;
   }
 
   .bestsellers-item-secondary {
     gap: 30px 20px;
+    max-width: 536px;
   }
 
   .bestsellers-item {
     width: calc((100% - 20px) / 2);
   }
 
+  .bestsellers-img {
+    width: 258px;
+  }
+
   .bestsellers-img:not(:first) {
-    max-width: 258px;
+    width: 258px;
   }
 }
