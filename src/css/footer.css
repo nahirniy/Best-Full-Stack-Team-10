@@ -2,6 +2,8 @@
 .footer {
     height: 523px;
     background-color: var(--blue-font);
+    position: relative;
+    bottom: 0;
 }
 
 .container-footer-item {
@@ -191,8 +193,6 @@
     .container-footer {
         width: 704px;
         margin: 0 auto;
-        padding-left: 32px;
-        padding-right: 32px;
     }
 
     .footer-logo {
@@ -318,8 +318,6 @@
     .container-footer {
         width: 1320px;
         color: var(--white-cl);
-        padding-left: 60px;
-        padding-right: 60px;
         margin: 0 auto;
     }
 
