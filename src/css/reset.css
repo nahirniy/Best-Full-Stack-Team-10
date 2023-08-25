@@ -54,14 +54,8 @@ address {
   overflow: hidden;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   line-height: 1.5;
   font-weight: 400;
   color: var(--blue-font);
@@ -71,7 +65,7 @@ body {
 
 .container {
   max-width: 375px;
-  padding: 0 16px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
