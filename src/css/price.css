@@ -1,5 +1,5 @@
-.price {
-  padding: 64px 0;
+.price-section {
+  padding-bottom: 64px;
 }
 
 .price-list {
@@ -18,6 +18,7 @@
   gap: 30px;
   border-bottom: 1px solid var(--blue-font, #0a224a);
   padding-bottom: 30px;
+  position: relative;
 }
 
 .price-item:first-child {
@@ -31,6 +32,33 @@
   font-weight: 400;
   line-height: 1.5;
   text-transform: uppercase;
+
+  /*  Set transition values  */
+  transform: translatex(0);
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 300ms;
+}
+
+.price-header:hover {
+  transform: translatex(60px);
+}
+
+.current::after {
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background: var(--blue-font);
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 19px;
+  display: none;
+}
+
+.current:hover::after {
+  display: block;
 }
 
 .price-description {
@@ -40,18 +68,18 @@
   line-height: 1.5;
 }
 
-@media screen and (min-width: 428px) {
+/* @media screen and (min-width: 375px) {
   .container {
-    max-width: 343px;
+    max-width: 345px;
   }
-}
+} */
 
 @media screen and (min-width: 768px) {
   .price {
-    padding: 100px 0;
+    padding-bottom: 100px;
   }
   .container {
-    max-width: 704px;
+    max-width: 736px;
   }
 
   .price-list {
@@ -75,7 +103,7 @@
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1096px;
+    max-width: 1352px;
   }
 
   .price-list {
