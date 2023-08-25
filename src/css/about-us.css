@@ -95,6 +95,7 @@
 
   .about-us-list {
     flex-direction: row;
+    gap: 33px;
   }
 
   .about-us-text {
