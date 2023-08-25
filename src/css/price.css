@@ -1,6 +1,6 @@
 .price-section {
-  /* padding-bottom: 64px; */
-  padding: 64px 0;
+  padding-bottom: 64px;
+  /* padding: 64px 0; */
 }
 
 .price-list {
@@ -40,12 +40,14 @@
   background: var(--blue-font);
   content: '';
   position: absolute;
-  left: 0;
-  top: 50px;
+  left: -60px;
+  top: 50%;
+  /* opacity: 0; */
   display: none;
 }
 
-.price-item:hover + .current::after {
+.price-item:hover .current::after {
+  /* opacity: 1; */
   display: block;
 }
 
@@ -55,11 +57,8 @@
   line-height: 1.5;
 }
 
-/* @media screen and (min-width: 375px) {
-  .container {
-    max-width: 345px;
-  }
-} */
+@media screen and (min-width: 375px) {
+}
 
 @media screen and (min-width: 768px) {
   .price {
@@ -94,10 +93,10 @@
   }
 
   .price-list {
-    max-width: 1096px;
+    max-width: 1352px;
   }
 
   .price-item {
-    max-width: 1096px;
+    max-width: 1352px;
   }
 }
