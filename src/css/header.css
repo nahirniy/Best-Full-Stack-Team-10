@@ -88,7 +88,7 @@
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 704px;
   }
   .logo,
   .logo-menu-open {
@@ -121,7 +121,7 @@
 }
 @media (min-width: 1440px) {
   .container {
-    max-width: 1352px;
+    max-width: 1320px;
   }
   .header-menu {
     display: flex;
