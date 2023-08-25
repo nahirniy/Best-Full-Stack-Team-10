@@ -1,0 +1,112 @@
+.hero-wrap {
+  background-color: lightgray -8.172px -122.895px / 181.99% 146.01%;
+  background-image: url(/img/hero/hero-1x.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 140px 16px 313px 16px;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: url(/img/hero/hero-2x.jpg);
+  }
+}
+.hero-title {
+  color: var(--blue-font, #0a224a);
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  width: 285px;
+}
+.hero-text {
+  color: var(--blue-font, #0a224a);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 28px;
+}
+
+.hero-link {
+  color: var(--white, #fff);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 12px 65px;
+  background-color: var(--blue-font, #0a224a);
+  transition: background-color 300ms ease-in-out;
+}
+.hero-link:hover,
+.hero-link:focus,
+.hero-link:active {
+  background-color: #061835;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+  .hero-conteiner {
+    padding-bottom: 100px;
+  }
+  .hero-title {
+    font-size: 50px;
+    width: 648px;
+    margin-bottom: 410px;
+  }
+  .hero-text {
+    font-size: 18px;
+    width: 312px;
+    margin-bottom: 30px;
+  }
+  .hero-link {
+    padding: 17px 65px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+  .hero-wrap {
+    padding: 0 0;
+    background-image: url(/img/hero/hero-tab-2-1x.jpg),
+      url(/img/hero/hero-tab-1-1x.jpg);
+    background-size: 364px 531px, 308px 329px;
+    background-position: right top, 0% 60%;
+  }
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: url(../img/hero/hero-tab-2-2x.jpg),
+      url(../img/hero/hero-tab-1-2x.jpg);
+  }
+
+}
+}
+
+@media screen and (min-width: 1440px){
+.container {
+  max-width: 1320px;
+}
+.hero-text {
+  margin: 246px 9px 30px 999px ;
+}
+.hero-link{
+  margin-left: 1068px;
+}
+ .hero-conteiner{padding-bottom: 121px;}
+
+ .hero-wrap {
+      background-image: url(/img/hero/product-1desk-1x.jpg) , url(/img/hero/product-2desk-1x.jpg) , url(/img/hero/product-3desk-1x.jpg) ; 
+      background-size: 310px 329px, 648px 530px, 312px 337px;
+      background-position: 0% 60% , center top, right top;
+  
+  
+  }
+
+
+}
+
