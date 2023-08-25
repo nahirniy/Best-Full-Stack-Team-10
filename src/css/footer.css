@@ -345,6 +345,7 @@
         align-items: center;
         gap: 30px;
         padding: 0;
+        z-index: 2;
     }
 
     .footer-socials-icons {
