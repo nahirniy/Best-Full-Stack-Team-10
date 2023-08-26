@@ -29,6 +29,10 @@ img {
   margin-bottom: 16px;
 }
 
+.bestsellers-main-img {
+  margin-bottom: 14px;
+}
+
 .bestsellers-item-secondary {
   display: flex;
   flex-wrap: wrap;
@@ -94,6 +98,7 @@ img {
   .bestsellers-main-img {
     width: 704px;
     height: 489px;
+    margin-bottom: 15px;
   }
 
   .bestsellers-item {
