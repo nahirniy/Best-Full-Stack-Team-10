@@ -29,9 +29,12 @@
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 28px;
+  
 }
 
 .hero-link {
+  
+  display: inline-block;
   color: var(--white, #fff);
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -63,50 +66,63 @@
     font-size: 18px;
     width: 312px;
     margin-bottom: 30px;
+    
   }
   .hero-link {
+    margin-top: auto;
+    line-height: 1.33;
     padding: 17px 65px;
     font-size: 18px;
-    line-height: 1.33;
   }
   .hero-wrap {
     padding: 0 0;
     background-image: url(/img/hero/hero-tab-2-1x.jpg),
       url(/img/hero/hero-tab-1-1x.jpg);
-    background-size: 364px 531px, 308px 329px;
-    background-position: right top, 0% 60%;
+    background-size: 364px, 308px;
+    background-position: right top, 0% 54%;
   }
   @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: url(../img/hero/hero-tab-2-2x.jpg),
+        url(../img/hero/hero-tab-1-2x.jpg);
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+    .hero-title {
+      margin-bottom: 246px;
+    }
+  }
+  .hero-text {
+    margin-left: auto;
+  }
+  .hero-link {
+    margin-left: 1008px;
+    width: 224px;
+    height: 50px;
+  }
+  .hero-conteiner {
+    padding-bottom: 121px;
+  }
+
   .hero-wrap {
-    background-image: url(../img/hero/hero-tab-2-2x.jpg),
-      url(../img/hero/hero-tab-1-2x.jpg);
+    background-image: url(/img/hero/product-1desk-1x.jpg),
+      url(/img/hero/product-2desk-1x.jpg), url(/img/hero/product-3desk-1x.jpg);
+    background-size: 310px, 648px, 312px;
+    background-position: left bottom, center bottom, right top;
   }
-
-}
-}
-
-@media screen and (min-width: 1440px){
-.container {
-  max-width: 1320px;
-}
-.hero-text {
-  margin: 246px 9px 30px 999px ;
-}
-.hero-link{
-  margin-left: 1068px;
-}
- .hero-conteiner{padding-bottom: 121px;}
-
- .hero-wrap {
-      background-image: url(/img/hero/product-1desk-1x.jpg) , url(/img/hero/product-2desk-1x.jpg) , url(/img/hero/product-3desk-1x.jpg) ; 
-      background-size: 310px 329px, 648px 530px, 312px 337px;
-      background-position: 0% 60% , center top, right top;
-  
-  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-wrap {
+      background-image: url(../img/hero/product-1desk-2x.jpg),
+        url(../img/hero/product-2desk-2x.jpg),
+        url(../img/hero/product-3desk-2x.jpg);
+    }
   }
-
-
 }
-
