@@ -63,17 +63,18 @@
   .hero-wrap {
     padding-top: 0;
     padding-bottom: 0;
-    background-image: url(/img/hero/hero-tab-2-1x.jpg) ,
-      url(/img/hero/hero-tab-1-1x.jpg);
-    background-size: 364px, 308px;
-    background-position: 100% 0%, 0% 54%;
+    background-image: url(/img/hero/hero-tab-1-1x.jpg) , url(/img/hero/hero-tab-2-1x.jpg) ;
+      ;
+      background-repeat: no-repeat;
+    background-size: 308px , 367px;
+    background-position: 0% 54% , 100% 0%;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-wrap {
-      background-image: url(/img/hero/hero-tab-2-2x.jpg),
-        url(/img/hero/hero-tab-1-2x.jpg);
+      background-image: url(/img/hero/hero-tab-1-2x.jpg),
+        url(/img/hero/hero-tab-2-2x.jpg);
     }
   }
 }
