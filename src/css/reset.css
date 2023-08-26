@@ -54,12 +54,6 @@ address {
   overflow: hidden;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
@@ -121,4 +115,16 @@ body {
     url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
     url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
   font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1352px;
+  }
 }
