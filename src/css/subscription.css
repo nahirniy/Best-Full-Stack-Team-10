@@ -70,6 +70,8 @@
 }
 .subscription-btn {
   transition: background-color 300ms ease-in-out;
+  padding: 17px 65px;
+  width: 224px;
 }
 .subscription-btn:hover,
 .subscription-btn:focus {
