@@ -3,7 +3,8 @@
   background-image: url(/img/hero/hero-1x.jpg);
   background-repeat: no-repeat;
   background-position: right;
-  padding: 140px 16px 313px 16px;
+  padding-top: 140px;
+  padding-bottom: 313px;
 }
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -13,35 +14,20 @@
   }
 }
 .hero-title {
-  color: var(--blue-font, #0a224a);
   font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-transform: uppercase;
+  text-align: left;
   margin-bottom: 14px;
   width: 285px;
 }
 .hero-text {
-  color: var(--blue-font, #0a224a);
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
   margin-bottom: 28px;
-  
 }
 
 .hero-link {
-  
   display: inline-block;
-  color: var(--white, #fff);
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
+  color: var(--white-cl);
   padding: 12px 65px;
-  background-color: var(--blue-font, #0a224a);
+  background-color: var(--blue-font);
   transition: background-color 300ms ease-in-out;
 }
 .hero-link:hover,
@@ -51,11 +37,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
-  }
   .hero-conteiner {
     padding-bottom: 100px;
+    padding-top: 64px;
   }
   .hero-title {
     font-size: 50px;
@@ -66,7 +50,6 @@
     font-size: 18px;
     width: 312px;
     margin-bottom: 30px;
-    
   }
   .hero-link {
     margin-top: auto;
@@ -75,7 +58,8 @@
     font-size: 18px;
   }
   .hero-wrap {
-    padding: 0 0;
+    padding-top: 0;
+    padding-bottom: 0;
     background-image: url(/img/hero/hero-tab-2-1x.jpg),
       url(/img/hero/hero-tab-1-1x.jpg);
     background-size: 364px, 308px;
@@ -92,22 +76,20 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1320px;
-    .hero-title {
-      margin-bottom: 246px;
-    }
+  .hero-title {
+    margin-bottom: 246px;
   }
+
   .hero-text {
     margin-left: auto;
   }
   .hero-link {
-    margin-left: 1008px;
+    margin-left: 1011px;
     width: 224px;
     height: 50px;
   }
   .hero-conteiner {
-    padding-bottom: 121px;
+    padding-bottom: 120px;
   }
 
   .hero-wrap {
