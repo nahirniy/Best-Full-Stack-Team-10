@@ -59,7 +59,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: var(--blue-font);
-  background-color: var(--white);
+  background-color: var(--white-cl);
   font-size: 16px;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .btn {
   padding: 12px 65px;
-  color: var(--white);
+  color: var(--white-cl);
   background-color: var(--blue-font);
 }
 
@@ -115,4 +115,16 @@ body {
     url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
     url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
   font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 736px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1352px;
+  }
 }
