@@ -1,9 +1,12 @@
+.header {
+  background-color: var(--light-blue, #f7faff);
+}
 .header-logo {
   display: flex;
   align-items: center;
 }
 .logo {
-  height: 16px;
+  fill: var(--blue-font);
 }
 .header-menu {
   display: none;
@@ -70,6 +73,9 @@
 .link-logo-menu {
   margin-right: auto;
 }
+.logo-menu-open {
+  fill: var(--blue-font);
+}
 .close-btn {
   margin-left: auto;
 }
@@ -88,10 +94,9 @@
 }
 @media (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 736px;
   }
-  .logo,
-  .logo-menu-open {
+  .logo-icon {
     width: 127px;
   }
   .header-menu {
@@ -121,7 +126,7 @@
 }
 @media (min-width: 1440px) {
   .container {
-    max-width: 1320px;
+    max-width: 1352px;
   }
   .header-menu {
     display: flex;
