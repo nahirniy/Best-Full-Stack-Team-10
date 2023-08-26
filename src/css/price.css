@@ -21,7 +21,6 @@
 }
 
 .price-link {
-  display: block;
   transition: 200ms transform 300ms ease;
 }
 
@@ -51,7 +50,6 @@
 }
 
 .price-description {
-  font-size: 16px;
   font-weight: 700;
 }
 
@@ -72,6 +70,6 @@
 
 @media screen and (min-width: 1440px) {
   .price-section {
-    padding: 0 26px 100px 26px;
+    padding: 0 156px 100px 156px;
   }
 }
