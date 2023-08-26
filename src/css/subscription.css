@@ -1,0 +1,126 @@
+.subscription-section {
+  padding: 64px 0;
+}
+.subscription .title {
+  margin-bottom: 20px;
+}
+.subscription-describe-form {
+  margin-bottom: 30px;
+}
+.subscription-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscription-label {
+  margin-bottom: 20px;
+  width: 100%;
+  position: relative;
+}
+.subscription-input {
+  outline: none;
+  border: 1px solid var(--dark-grey, #b6b6b6);
+  padding: 11px 20px;
+  width: 100%;
+  transition: border 300ms ease-in-out;
+}
+.subscription-input:hover,
+.subscription-input:focus {
+  border: 1px solid var(--blue-font);
+}
+.subscription-input::placeholder {
+  color: var(--grey, #d9d9d9);
+}
+.icon-error {
+  position: absolute;
+  right: 20px;
+  top: 11px;
+  transition: all 300ms ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.subscription-input:invalid {
+  border: 1px solid #e74a3b;
+}
+.subscription-input:invalid + .icon-error {
+  opacity: 1;
+  visibility: visible;
+}
+.subscription-form-wrap {
+  margin-bottom: 30px;
+}
+.label-arrangements {
+  color: var(--checkbox-cl);
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.span-icon-checkbox {
+  border: 1px solid var(--dark-grey, #b6b6b6);
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 300ms ease-in-out;
+  margin-right: 8px;
+}
+.checkbox:checked + .label-arrangements .span-icon-checkbox {
+  background-color: var(--blue-font);
+  border: none;
+}
+.subscription-btn {
+  transition: background-color 300ms ease-in-out;
+  padding: 17px 65px;
+  width: 224px;
+}
+.subscription-btn:hover,
+.subscription-btn:focus {
+  background-color: #061835;
+}
+
+@media (min-width: 768px) {
+  .subscription-section {
+    padding: 100px 0;
+  }
+  .subscription-form-wrap {
+    max-width: 536px;
+  }
+  .subscription-section .title {
+    font-size: 32px;
+    line-height: 1.41;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .label-arrangements,
+  .subscription-btn,
+  .subscription-input,
+  .subscription-describe-form {
+    font-size: 18px;
+  }
+  .subscription-btn {
+    line-height: 1.33;
+  }
+  .subscription-form-wrap {
+    margin-bottom: 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .subscription-section {
+    padding: 100px 0 86px 0;
+  }
+  .subscription-section .container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  .subscription-form-wrap {
+    margin-bottom: 0;
+  }
+  .subscription-form-wrap {
+    margin-left: auto;
+  }
+  .subscription-pictures {
+    margin-right: auto;
+  }
+}
