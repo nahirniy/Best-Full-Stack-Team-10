@@ -70,6 +70,7 @@
 
 @media screen and (min-width: 1440px) {
   .price-section {
-    padding: 0 156px 100px 156px;
+    max-width: 1096px;
+    margin: 0 auto;
   }
 }
