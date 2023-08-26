@@ -1,9 +1,13 @@
+.header {
+  background-color: var(--light-blue, #f7faff);
+}
 .header-logo {
   display: flex;
   align-items: center;
 }
 .logo {
   height: 16px;
+  stroke: var(--blue-font);
 }
 .header-menu {
   display: none;
