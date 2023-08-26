@@ -1,8 +1,9 @@
 .hero-wrap {
-  background-color: lightgray -8.172px -122.895px / 181.99% 146.01%;
+  background-color: var(-grey-cl);
   background-image: url(/img/hero/hero-1x.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  background-size: 375px; 
   padding-top: 140px;
   padding-bottom: 313px;
 }
@@ -25,9 +26,6 @@
 
 .hero-link {
   display: inline-block;
-  color: var(--white-cl);
-  padding: 12px 65px;
-  background-color: var(--blue-font);
   transition: background-color 300ms ease-in-out;
 }
 .hero-link:hover,
@@ -60,17 +58,17 @@
   .hero-wrap {
     padding-top: 0;
     padding-bottom: 0;
-    background-image: url(/img/hero/hero-tab-2-1x.jpg),
+    background-image: url(/img/hero/hero-tab-2-1x.jpg) ,
       url(/img/hero/hero-tab-1-1x.jpg);
     background-size: 364px, 308px;
-    background-position: right top, 0% 54%;
+    background-position: 100% 0%, 0% 54%;
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-wrap {
-      background-image: url(../img/hero/hero-tab-2-2x.jpg),
-        url(../img/hero/hero-tab-1-2x.jpg);
+      background-image: url(/img/hero/hero-tab-2-2x.jpg),
+        url(/img/hero/hero-tab-1-2x.jpg);
     }
   }
 }
@@ -103,8 +101,8 @@
     (min-resolution: 2dppx) {
     .hero-wrap {
       background-image: url(../img/hero/product-1desk-2x.jpg),
-        url(../img/hero/product-2desk-2x.jpg),
-        url(../img/hero/product-3desk-2x.jpg);
+        url(/img/hero/product-2desk-2x.jpg),
+        url(/img/hero/product-3desk-2x.jpg);
     }
   }
 }
