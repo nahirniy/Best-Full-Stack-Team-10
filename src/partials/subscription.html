@@ -1,1 +1,87 @@
-<section class="subscription-section"><form></form></section>
+<section class="subscription-section" id="subscription">
+  <div class="container">
+    <div class="subscription-form-wrap">
+      <h2 class="title">Newsletter</h2>
+      <form class="subscription-form">
+        <p class="subscription-describe-form">
+          Every week we will send you new designs and information about sales.
+        </p>
+        <label for="user-name" class="subscription-label"
+          ><input
+            id="user-name"
+            class="subscription-input"
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            minlength="2"
+            maxlength="16"
+            pattern="[A-Za-zА\s]+"
+          />
+          <svg class="icon-error" width="24" height="24">
+            <use href="./img/icons.svg#icon-error"></use>
+          </svg>
+        </label>
+        <label for="user-email" class="subscription-label"
+          ><input
+            id="user-email"
+            class="subscription-input"
+            type="email"
+            name="user-email"
+            placeholder="E-mail"
+          />
+          <svg class="icon-error" width="24" height="24">
+            <use href="./img/icons.svg#icon-error"></use>
+          </svg>
+        </label>
+        <div class="subscription-checkbox-wrap">
+          <input
+            class="checkbox visually-hidden"
+            id="user-arrangements"
+            type="checkbox"
+            value="true"
+            name="user-arrangements"
+          />
+          <label for="user-arrangements" class="label-arrangements">
+            <span class="span-icon-checkbox">
+              <svg class="icon-checkbox" width="13" height="13">
+                <use href="./img/icons.svg#icon-checkmark"></use>
+              </svg>
+            </span>
+            Agree to subscribe to the newsletter
+          </label>
+          <button class="btn subscription-btn" type="button">Send</button>
+        </div>
+      </form>
+    </div>
+    <div class="subscription-pictures">
+      <picture>
+        <source
+          srcset="
+            ./img/subscription/subscription-dekstop.jpg     1x,
+            ./img/subscription/subscription-dekstop-@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="
+            ./img/subscription/subscription-tab.jpg     1x,
+            ./img/subscription/subscription-tab-@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./img/subscription/subscription-mob.jpg     1x,
+            ./img/subscription/subscription-mob-@2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          class="subscription-img"
+          src="./img/subscription/subscription-dekstop.jpg"
+          alt="sub-product"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
