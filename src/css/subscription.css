@@ -1,4 +1,4 @@
-.subscription {
+.subscription-section {
   padding: 64px 0;
 }
 .subscription .title {
@@ -77,13 +77,13 @@
 }
 
 @media (min-width: 768px) {
-  .subscription {
+  .subscription-section {
     padding: 100px 0;
   }
   .subscription-form-wrap {
     max-width: 536px;
   }
-  .subscription .title {
+  .subscription-section .title {
     font-size: 32px;
     line-height: 1.41;
     text-align: left;
@@ -104,10 +104,10 @@
 }
 
 @media (min-width: 1440px) {
-  .subscription {
+  .subscription-section {
     padding: 100px 0 86px 0;
   }
-  .subscription .container {
+  .subscription-section .container {
     display: flex;
     align-items: center;
     gap: 100px;
