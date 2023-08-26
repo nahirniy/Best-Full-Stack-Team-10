@@ -1,12 +1,3 @@
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.container {
-  margin: 0 auto;
-}
-
 .our-products-section {
   padding-bottom: 64px;
   margin: 0 auto;
@@ -58,7 +49,7 @@ img {
 /* Tablet */
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 704px;
+    max-width: 736px;
   }
 
   .our-products-section {
@@ -97,7 +88,7 @@ img {
 /* Desktop */
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1320px;
+    max-width: 1352px;
   }
 
   .our-products-list {

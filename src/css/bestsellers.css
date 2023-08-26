@@ -1,13 +1,3 @@
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .bestsellers-section {
   padding-bottom: 100px;
   margin: 0 auto;
@@ -71,7 +61,7 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     width: 100%;
-    max-width: 704px;
+    max-width: 736px;
   }
 
   .bestsellers-title {
@@ -123,7 +113,7 @@ img {
 @media screen and (min-width: 1440px) {
   .container {
     width: 100%;
-    max-width: 1320px;
+    max-width: 1352px;
   }
 
   .bestsellers-list {
