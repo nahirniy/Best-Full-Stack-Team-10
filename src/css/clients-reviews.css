@@ -1,4 +1,26 @@
-.clients-list {
+.reviews-section {
+    padding-bottom: 60px;
+    padding-top: 36px;
+}
+
+.review-title {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.clients-list {
     list-style-type: none;
 }
 .clients-link {
@@ -11,8 +33,6 @@
     padding: 60px 0;
 }
 
-
-
 .reviews-title {
     color: var(--blue-font);
     font-family: "Roboto" sans-serif;
@@ -20,7 +40,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 45px;
-        /* 140.625% */
+        /* 140.625% 
         text-align: center;
     text-transform: uppercase;
 }
@@ -38,11 +58,11 @@
     border-radius: 8px;
     /*box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
             0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);*/
-}
+
 
 /*.reviews-photos {
     margin-right: 14px;
-}*/
+}
 
 .reviwes-peoples {
     margin-left: 14px;
@@ -69,7 +89,7 @@
         font-style: normal;
         font-weight: 400;
         line-height: 42px;
-        /* 150% */
+        /* 150% 
         text-transform: uppercase;
         margin-bottom: 30px;
     }
@@ -129,7 +149,7 @@
 @media (min-width: 1440px) {
     /*.reviews-section {
         padding: 60px;
-    }*/
+    }
         .reviews-section {
              margin-bottom: 100px;
         }
@@ -145,7 +165,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 45px;
-    /* 140.625% */
+    /* 140.625% 
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -206,7 +226,7 @@ font-size: 18px;
     max-width: 296px;
     margin-top: 26px;
 }
-}*/
+}
 
 @media (max-width: 768px) {
 .child-two {
@@ -214,8 +234,8 @@ font-size: 18px;
 }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
     .child-three {
         display: none;
     }
-}
+}*/
