@@ -1,9 +1,12 @@
+.header {
+  background-color: var(--light-blue, #f7faff);
+}
 .header-logo {
   display: flex;
   align-items: center;
 }
 .logo {
-  height: 16px;
+  fill: var(--blue-font);
 }
 .header-menu {
   display: none;
@@ -70,6 +73,9 @@
 .link-logo-menu {
   margin-right: auto;
 }
+.logo-menu-open {
+  fill: var(--blue-font);
+}
 .close-btn {
   margin-left: auto;
 }
@@ -90,8 +96,7 @@
   .container {
     max-width: 736px;
   }
-  .logo,
-  .logo-menu-open {
+  .logo-icon {
     width: 127px;
   }
   .header-menu {
