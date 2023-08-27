@@ -43,7 +43,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   gap: 30px;
 }
 
@@ -111,6 +110,7 @@
 
   .about-us-top-side {
     max-width: 760px;
+    padding: 36px 69px 34px;
     margin-bottom: 0;
   }
 
