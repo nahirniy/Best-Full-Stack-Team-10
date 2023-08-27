@@ -105,6 +105,9 @@
   .menu-list {
     gap: 30px;
   }
+  .menu-list-link {
+    font-size: 18px;
+  }
   .mobile-menu {
     padding: 30px 32px 0px 32px;
   }
