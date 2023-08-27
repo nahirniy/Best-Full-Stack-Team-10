@@ -1,5 +1,6 @@
 .header {
   background-color: var(--light-blue, #f7faff);
+  padding: 22px 0;
 }
 .header-logo {
   display: flex;
@@ -10,13 +11,6 @@
 }
 .header-menu {
   display: none;
-}
-.link-logo {
-  display: flex;
-  padding: 36px 0;
-}
-.link-logo-menu {
-  display: flex;
 }
 .burger {
   stroke: var(--blue-font, #0a224a);
@@ -32,8 +26,8 @@
   border: none;
   outline: none;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
   margin-left: auto;
   transition: background-color 300ms ease-in-out;
 }
@@ -93,9 +87,6 @@
   transition: color 300ms ease-in-out;
 }
 @media (min-width: 768px) {
-  .container {
-    max-width: 736px;
-  }
   .logo-icon {
     width: 127px;
   }
@@ -119,8 +110,8 @@
     height: 40px;
   }
   .open-menu {
-    width: 55px;
-    height: 55px;
+    width: 52px;
+    height: 52px;
   }
   .close-menu {
     width: 40px;
@@ -128,8 +119,8 @@
   }
 }
 @media (min-width: 1440px) {
-  .container {
-    max-width: 1352px;
+  .header {
+    padding: 34px 0;
   }
   .header-menu {
     display: flex;
