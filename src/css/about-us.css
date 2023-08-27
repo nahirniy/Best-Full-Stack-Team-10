@@ -11,7 +11,6 @@
 .about-us-top-side {
   padding-top: 64px;
   padding-bottom: 64px;
-  /* background-color: var(--light-blue-cl); */
 }
 
 .container-about {
@@ -64,7 +63,7 @@
 }
 
 .about-us-bottom-side {
-  padding-bottom: 64px;
+  margin: 0 -15px;
 }
 
 .about-us-img {
@@ -74,6 +73,7 @@
 
 @media screen and (min-width: 768px) {
   .about-us-section {
+    padding-bottom: 100px;
     background-color: var(--white-cl);
   }
 
@@ -106,7 +106,7 @@
   }
 
   .about-us-bottom-side {
-    padding-bottom: 100px;
+    margin: 0;
   }
 }
 
@@ -114,21 +114,16 @@
 
 @media screen and (min-width: 1440px) {
   .about-us-wrap {
-    padding-bottom: 100px;
+    align-items: center;
   }
 
   .about-us-top-side {
     max-width: 760px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
 
   .about-us-wrap {
     gap: 24px;
-  }
-
-  .about-us-bottom-side {
-    padding-bottom: 0;
   }
 
   .about-us-list {
