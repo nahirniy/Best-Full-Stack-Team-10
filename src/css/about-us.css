@@ -1,5 +1,4 @@
 .about-us-section {
-  padding-bottom: 64px;
   background-color: var(--light-blue-cl);
 }
 
@@ -13,11 +12,9 @@
   padding-bottom: 64px;
 }
 
-.container-about {
-  width: 124px;
-}
-
 .about-us-signature {
+  font-weight: 400;
+  font-size: 16px;
   margin-bottom: 30px;
   position: relative;
   margin-left: 50px;
@@ -34,7 +31,6 @@
 }
 
 .about-us-title {
-  line-height: 1.5;
   text-align: left;
   margin-bottom: 30px;
 }
@@ -45,13 +41,13 @@
 
 .about-us-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
 .about-us-item {
-  width: 100%;
   max-width: 170px;
   text-align: center;
 }
@@ -63,10 +59,9 @@
 }
 
 .about-us-bottom-side {
+  background-color: var(--white-cl);
+  padding-bottom: 64px;
   margin: 0 -16px;
-}
-
-.about-us-img {
 }
 
 /* ---------------------TABLET------------------------------- */
@@ -97,15 +92,12 @@
     gap: 33px;
   }
 
-  .about-us-item {
-    width: calc((100% - 2 * 33px) / 3);
-  }
-
   .about-us-text {
     font-size: 18px;
   }
 
   .about-us-bottom-side {
+    padding-bottom: 0;
     margin: 0;
   }
 }
@@ -128,9 +120,5 @@
 
   .about-us-list {
     gap: 56px;
-  }
-
-  .about-us-item {
-    width: calc((100% - 2 * 56px) / 3);
   }
 }
