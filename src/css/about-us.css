@@ -1,9 +1,17 @@
 .about-us-section {
-  background-color: var(--light-blue-cl);
   padding-bottom: 64px;
+  background-color: var(--light-blue-cl);
 }
 
-.container-signature {
+.about-us-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us-top-side {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  /* background-color: var(--light-blue-cl); */
 }
 
 .container-about {
@@ -26,10 +34,6 @@
   height: 1px;
 }
 
-.container-wrap {
-  width: 343px;
-}
-
 .about-us-title {
   line-height: 1.5;
   text-align: left;
@@ -45,7 +49,6 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  /* margin-bottom: 64px; */
 }
 
 .about-us-item {
@@ -57,13 +60,11 @@
 .about-us-subtitle {
   font-size: 50px;
   font-weight: 400;
-  line-height: 1.5;
-  text-transform: uppercase;
   margin-bottom: 14px;
 }
 
 .about-us-bottom-side {
-  /* width: 375px; */
+  padding-bottom: 64px;
 }
 
 .about-us-img {
@@ -72,16 +73,14 @@
 /* ---------------------TABLET------------------------------- */
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 704px;
+  .about-us-section {
+    background-color: var(--white-cl);
   }
 
   .about-us-top-side {
-    /* padding: 36px 64px; */
-  }
-
-  .container-wrap {
-    width: 576px;
+    margin-bottom: 30px;
+    padding: 36px 64px;
+    background-color: var(--light-blue-cl);
   }
 
   .about-us-title {
@@ -98,7 +97,45 @@
     gap: 33px;
   }
 
+  .about-us-item {
+    width: calc((100% - 2 * 33px) / 3);
+  }
+
   .about-us-text {
     font-size: 18px;
+  }
+
+  .about-us-bottom-side {
+    padding-bottom: 100px;
+  }
+}
+
+/* ---------------------DESKTOP------------------------------- */
+
+@media screen and (min-width: 1440px) {
+  .about-us-wrap {
+    padding-bottom: 100px;
+  }
+
+  .about-us-top-side {
+    max-width: 760px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .about-us-wrap {
+    gap: 24px;
+  }
+
+  .about-us-bottom-side {
+    padding-bottom: 0;
+  }
+
+  .about-us-list {
+    gap: 56px;
+  }
+
+  .about-us-item {
+    width: calc((100% - 2 * 56px) / 3);
   }
 }
