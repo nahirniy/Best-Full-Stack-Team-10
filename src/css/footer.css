@@ -68,14 +68,14 @@
 }
 .footer-customer-link:hover .footer-socials-icons,
 .footer-customer-link:focus .footer-socials-icons {
-  fill: #87ceeb;
+  fill: var(--grey-cl);
   transition: fill 300ms ease-in-out;
 }
 .footer-contact-item:hover,
 .footer-contact-item:focus,
 .footer-list-item:hover,
 .footer-list-item:focus {
-  color: #87ceeb;
+  color: var(--grey-cl);
   transition: color 300ms ease-in-out;
 }
 @media screen and (min-width: 768px) {

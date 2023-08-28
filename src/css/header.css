@@ -12,7 +12,6 @@
 }
 
 .scroll-up {
-  /* fill: rgba(202, 219, 214, 0.9); */
   fill: var(--light-blue, #f7faff);
 }
 
@@ -107,6 +106,10 @@
   transition: color 300ms ease-in-out;
 }
 @media (min-width: 768px) {
+  #scrollToTop {
+    bottom: 40px;
+    right: 25px;
+  }
   .link-logo {
     padding: 36px 0;
   }
