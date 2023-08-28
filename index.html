@@ -13,18 +13,25 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/Best-Full-Stack-Team-10/assets/index-e3a7a351.js"></script>
-    <link rel="stylesheet" href="/Best-Full-Stack-Team-10/assets/index-3fde48b6.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script type="module" crossorigin src="/Best-Full-Stack-Team-10/assets/index-ccb36f65.js"></script>
+    <link rel="stylesheet" href="/Best-Full-Stack-Team-10/assets/index-5d208818.css">
   </head>
 
   <body>
     <!-- Юрій -->
-    <header class="header">
+    <div id="scrollToTop">
+  <svg class="scroll-up" width="60" height="60">
+    <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#scroll-up"></use>
+  </svg>
+</div>
+
+<header class="header" id="header">
   <div class="container">
     <div class="header-logo">
       <a href="./index.html" class="link-logo">
         <svg class="logo-icon" width="100" height="16">
-          <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-logo"></use>
+          <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-logo"></use>
         </svg>
       </a>
       <div class="header-menu">
@@ -55,7 +62,7 @@
         aria-expanded="false"
       >
         <svg class="burger" width="32" height="32">
-          <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-burger-menu"></use>
+          <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-burger-menu"></use>
         </svg>
       </button>
     </div>
@@ -63,12 +70,12 @@
       <div class="logo-menu">
         <a href="#about-us" class="link-logo-menu">
           <svg class="logo-icon" width="100" height="16">
-            <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-logo"></use>
+            <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-logo"></use>
           </svg>
         </a>
         <button type="button" class="close-btn">
           <svg class="close-menu js-close-menu" width="32" height="32">
-            <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-close"></use>
+            <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-close"></use>
           </svg>
         </button>
       </div>
@@ -99,7 +106,7 @@
 
     <main>
       <!-- Олег -->
-      <section class="hero-section">
+      <section class="hero-section" id="hero">
   <div class="container hero-wrap">
     <div class="hero-title-wrap">
       <h1 class="hero-title title">Modern and minimalist furniture for you</h1>
@@ -108,13 +115,13 @@
       <p class="hero-text">
         Add a touch of elegance to your space with handcrafted furniture pieces
       </p>
-      <a class="hero-link btn" href="#subscription-section">Subscribe</a>
+      <a class="hero-link btn" href="#subscription">Subscribe</a>
     </div>
 </section>
 
 
       <!-- Евеліна -->
-      <section class="about-us-section">
+      <section class="about-us-section" id="about-us">
   <div class="container">
     <div class="about-us-wrap">
       <div class="about-us-top-side">
@@ -174,7 +181,7 @@
 
 
       <!-- Олексій -->
-      <section class="price-section" id="price">
+      <section class="price-section" id="prices">
   <div class="wrapper">
     <h2 class="price-title visually-hidden">
       Chairs Tables Dressers Sofas Price
@@ -206,7 +213,7 @@
 
 
       <!-- Станіслав -->
-      <section class="our-products-section">
+      <section class="our-products-section" id="our-products">
   <div class="container">
     <h2 class="our-products-title title">our products</h2>
     <ul class="our-products-list">
@@ -283,7 +290,7 @@
   </div>
 </section>
 
-      <section class="bestsellers-section">
+      <section class="bestsellers-section" id="bestsellers">
   <div class="wrapper">
     <h2 class="bestsellers-title title">bestsellers</h2>
     <div class="bestseller-container">
@@ -403,7 +410,7 @@
 
 
       <!-- Владислав -->
-      <section class="reviews-section" id="reviwes">
+      <section class="reviews-section" id="reviews">
   <div class="container">
     <h2 class="title review-title">Clients reviews</h2>
     <ul class="reviews-list">
@@ -505,7 +512,7 @@
             pattern="[A-Za-zА\s]+"
           />
           <svg class="icon-error" width="24" height="24">
-            <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-error"></use>
+            <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-error"></use>
           </svg>
         </label>
         <label for="user-email" class="subscription-label"
@@ -517,7 +524,7 @@
             placeholder="E-mail"
           />
           <svg class="icon-error" width="24" height="24">
-            <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-error"></use>
+            <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-error"></use>
           </svg>
         </label>
         <div class="subscription-checkbox-wrap">
@@ -531,7 +538,7 @@
           <label for="user-arrangements" class="label-arrangements">
             <span class="span-icon-checkbox">
               <svg class="icon-checkbox" width="13" height="13">
-                <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-checkmark"></use>
+                <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-checkmark"></use>
               </svg>
             </span>
             Agree to subscribe to the newsletter
@@ -567,80 +574,121 @@
     </main>
 
     <!-- Інна -->
-    <footer class="footer">  
-    <div class="container">
-            <div class="footer-top">
-                <div class="footer-logo container-footer-item">
-                    <a href="#" class="text-logo">
-                        <svg class="footer-logo-svg" width="127" height="16">
-                            <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-logo"></use>
-                        </svg>
-                    </a>
-                </div>
-                <div class="footer-social container-footer-item">
-                    <ul class="footer-social-media footer-list">
-                        <li class="footer-list-item">
-                        <a href="https://facebook.com" target="_blank" class="footer-customer-link">
-                            <svg class="footer-socials-icons" width="40" height="40">
-                                <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                            
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="https://instagram.com" target="_blank" class="footer-customer-link">
-                                <svg class="footer-socials-icons" width="40" height="40">
-                                    <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="footer-list-item">
-                            <a href="https://youtube.com" target="_blank" class="footer-customer-link">
-                                <svg class="footer-socials-icons" width="40" height="40">
-                                    <use href="/Best-Full-Stack-Team-10/assets/icons-faea68ad.svg#icon-youtube"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-menu container-footer-item">
-                    <ul class="footer-nav footer-list">
-                        <li class="footer-list-item"><a href="#about-us">About us</a></li>
-                        <li class="footer-list-item"><a href="#our-products">Our products</a></li>
-                        <li class="footer-list-item"><a href="#prices">Prices</a></li>
-                        <li class="footer-list-item"><a href="#bestsellers">Bestsellers</a></li>
-                        <li class="footer-list-item"><a href="#reviews">Reviews</a></li>
-                    </ul>
-                </div>
-            </div>
-                
-            <div class="footer-address-container">
-                <address class="footer-address">
-                    <ul class="footer-list-address">
-                        <li><a class="footer-contact-link" href="https://goo.gl/maps/4sv9vffiyUzo573PA" target="_blank">Obolonsky Prospect, 14, Kyiv</a></li>
-                        <li><a class="footer-contact-link" href="#">Daily 10:00-21:00</a></li>
-                    </ul>
-                    <ul class="footer-info-class">
-                        <li><a class="footer-contact-link" href="tel:+380669384758">+380669384758</a></li>
-                        <li><a class="footer-contact-link" href="tel:+380679384758">+380679384758</a></li>
-                    </ul>
-                    <ul class="footer-info-email">
-                        <li><a class="footer-contact-link-email" href="mailto:minimal.furniture@gmail.com">minimal.furniture@gmail.com</a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-        <div class="footer-consent">
-            <p class="footer-text">
-                By using this website, you agree to the 
-                <a href="#" class="modal-check-link">Terms of Service</a> and 
-                <a href="#" class="modal-check-link">Privacy Policy</a>
-            </p>
-        </div>
-
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-logo container-footer-item">
+        <a href="#" class="text-logo">
+          <svg class="footer-logo-svg" width="127" height="16">
+            <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-logo"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="footer-social container-footer-item">
+        <ul class="footer-social-media footer-list">
+          <li class="footer-list-item">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              class="footer-customer-link"
+            >
+              <svg class="footer-socials-icons" width="40" height="40">
+                <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-item">
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              class="footer-customer-link"
+            >
+              <svg class="footer-socials-icons" width="40" height="40">
+                <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-item">
+            <a
+              href="https://youtube.com"
+              target="_blank"
+              class="footer-customer-link"
+            >
+              <svg class="footer-socials-icons" width="40" height="40">
+                <use href="/Best-Full-Stack-Team-10/assets/icons-51e00878.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu container-footer-item">
+        <ul class="footer-nav footer-list">
+          <li class="footer-list-item"><a href="#about-us">About us</a></li>
+          <li class="footer-list-item">
+            <a href="#our-products">Our products</a>
+          </li>
+          <li class="footer-list-item"><a href="#prices">Prices</a></li>
+          <li class="footer-list-item">
+            <a href="#bestsellers">Bestsellers</a>
+          </li>
+          <li class="footer-list-item"><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
     </div>
+
+    <div class="footer-address-container">
+      <address class="footer-address">
+        <ul class="footer-list-address">
+          <li>
+            <a
+              class="footer-contact-link"
+              href="https://goo.gl/maps/4sv9vffiyUzo573PA"
+              target="_blank"
+              >Obolonsky Prospect, 14, Kyiv</a
+            >
+          </li>
+          <li><a class="footer-contact-link" href="#">Daily 10:00-21:00</a></li>
+        </ul>
+        <ul class="footer-info-class">
+          <li>
+            <a class="footer-contact-link" href="tel:+380669384758"
+              >+380669384758</a
+            >
+          </li>
+          <li>
+            <a class="footer-contact-link" href="tel:+380679384758"
+              >+380679384758</a
+            >
+          </li>
+        </ul>
+        <ul class="footer-info-email">
+          <li>
+            <a
+              class="footer-contact-link-email"
+              href="mailto:minimal.furniture@gmail.com"
+              >minimal.furniture@gmail.com</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+    <div class="footer-consent">
+      <p class="footer-text">
+        By using this website, you agree to the
+        <a href="#" class="modal-check-link">Terms of Service</a> and
+        <a href="#" class="modal-check-link">Privacy Policy</a>
+      </p>
+    </div>
+  </div>
 </footer>
 
+
     
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
