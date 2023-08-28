@@ -1,17 +1,13 @@
-
 .footer {
   background-color: var(--blue-font);
   color: var(--white-cl);
   position: relative;
-  padding-left: 16px;
-  padding-right: 16px;
   padding-bottom: 16px;
   padding-top: 36px;
 }
 .footer-top {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   flex-wrap: wrap;
   row-gap: 42px;
   align-items: center;
@@ -23,9 +19,6 @@
   width: 100px;
   height: 16px;
   fill: var(--white-cl);
-}
-.footer-list-item {
-  gap: 16px;
 }
 .footer-social {
   display: flex;
@@ -47,7 +40,9 @@
   width: 50%;
   margin-bottom: 36px;
 }
-.footer-list-address, .footer-nav, .footer-info-class {
+.footer-list-address,
+.footer-nav,
+.footer-info-class {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -56,7 +51,6 @@
   margin-bottom: 36px;
 }
 .footer-info-class {
-  margin-top: 35px;
   margin-bottom: 64px;
 }
 .footer-contact-link-email {
@@ -64,7 +58,7 @@
 }
 .footer-text {
   opacity: 0.6;
-  line-height: 14px;
+  line-height: 1.17;
   letter-spacing: 0.099em;
   font-size: 12px;
   text-align: center;
@@ -72,11 +66,17 @@
 .modal-check-link {
   text-decoration-line: underline;
 }
-.footer-list-item:hover, .footer-list-item:focus,
-.footer-contact-item:hover, .footer-contact-item:focus
-{
-  opacity: 0.6;
-  transition: opacity 300ms ease-in-out;
+.footer-customer-link:hover .footer-socials-icons,
+.footer-customer-link:focus .footer-socials-icons {
+  fill: #87ceeb;
+  transition: fill 300ms ease-in-out;
+}
+.footer-contact-item:hover,
+.footer-contact-item:focus,
+.footer-list-item:hover,
+.footer-list-item:focus {
+  color: #87ceeb;
+  transition: color 300ms ease-in-out;
 }
 @media screen and (min-width: 768px) {
   .footer {
@@ -152,11 +152,8 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .footer {
-    padding-bottom: 36px;
-  }
   .container-footer-item {
-    width: auto
+    width: auto;
   }
   .footer-top {
     width: 1320px;
@@ -171,8 +168,6 @@
     flex-direction: row;
   }
   .footer-list-address {
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
     letter-spacing: 0.012em;
     margin: 0 87px 0 0;
@@ -182,8 +177,5 @@
   }
   .footer-info-class {
     margin: 0 82px 0 0;
-  }
-  .footer-consent {
-    width: 1320px;
   }
 }

@@ -1,14 +1,19 @@
 #scrollToTop {
   position: fixed;
-  bottom: 40px;
-  right: 20px;
+  bottom: 30px;
+  right: 15px;
   cursor: pointer;
   display: none;
   z-index: 100;
+  padding: 12px;
+  max-height: 69px;
+  background-color: rgba(162, 189, 184, 0.6);
+  border-radius: 50%;
 }
 
 .scroll-up {
-  fill: rgba(205, 211, 221, 0.9);
+  /* fill: rgba(202, 219, 214, 0.9); */
+  fill: var(--light-blue, #f7faff);
 }
 
 .header {

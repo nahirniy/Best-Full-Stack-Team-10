@@ -18,6 +18,16 @@
   openMenuBtn.addEventListener('click', toggleMenu);
   closeMenuBtn.addEventListener('click', toggleMenu);
 
+  // Додати обробник подій для закриття меню при кліку на якірні посилання
+  const menuLinks = document.querySelectorAll('.menu-list-link');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.setAttribute('aria-expanded', false);
+      bodyScrollLock.enableBodyScroll(document.body);
+    });
+  });
+
   // Close the mobile menu on wider screens if the device orientation changes
   window.matchMedia('(min-width: 1440px)').addEventListener('change', e => {
     if (!e.matches) return;
