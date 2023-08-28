@@ -109,18 +109,12 @@
   .subscription-section {
     padding: 100px 0 86px 0;
   }
-  .subscription-section .container {
+  .subscription-section .wrapper {
     display: flex;
     align-items: center;
     gap: 100px;
   }
   .subscription-form-wrap {
     margin-bottom: 0;
-  }
-  .subscription-form-wrap {
-    margin-left: auto;
-  }
-  .subscription-pictures {
-    margin-right: auto;
   }
 }

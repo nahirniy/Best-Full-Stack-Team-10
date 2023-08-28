@@ -17,14 +17,14 @@
   font-size: 16px;
   margin-bottom: 30px;
   position: relative;
-  margin-left: 50px;
+  padding-left: 50px;
 }
 
 .about-us-signature::before {
   content: '';
   background: var(--blue-font);
   position: absolute;
-  left: -50px;
+  left: 0;
   top: 50%;
   width: 30px;
   height: 1px;

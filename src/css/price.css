@@ -69,8 +69,4 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .price-section {
-    max-width: 1096px;
-    margin: 0 auto;
-  }
 }

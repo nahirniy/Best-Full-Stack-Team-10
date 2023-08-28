@@ -1,10 +1,12 @@
 .header {
   background-color: var(--light-blue, #f7faff);
-  padding: 22px 0;
 }
 .header-logo {
   display: flex;
   align-items: center;
+}
+.link-logo {
+  padding: 32px 0;
 }
 .logo {
   fill: var(--blue-font);
@@ -87,6 +89,9 @@
   transition: color 300ms ease-in-out;
 }
 @media (min-width: 768px) {
+  .link-logo {
+    padding: 36px 0;
+  }
   .logo-icon {
     width: 127px;
   }
@@ -119,9 +124,6 @@
   }
 }
 @media (min-width: 1440px) {
-  .header {
-    padding: 34px 0;
-  }
   .header-menu {
     display: flex;
     margin-left: auto;
@@ -132,7 +134,8 @@
   }
   .header-list-link {
     font-size: 18px;
-    padding: 26px 0;
+    padding: 34px 0;
+    display: block;
   }
   .header-list-link:hover,
   .header-list-link:focus {

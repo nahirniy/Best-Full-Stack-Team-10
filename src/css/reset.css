@@ -63,7 +63,8 @@ body {
   font-size: 16px;
 }
 
-.container {
+.container,
+.wrapper {
   max-width: 375px;
   padding: 0 16px;
   margin: 0 auto;
@@ -118,7 +119,8 @@ body {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container,
+  .wrapper {
     max-width: 736px;
   }
 }
@@ -126,5 +128,9 @@ body {
 @media (min-width: 1440px) {
   .container {
     max-width: 1352px;
+  }
+  .wrapper {
+    padding: 0;
+    max-width: 1096px;
   }
 }
