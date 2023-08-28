@@ -53,7 +53,7 @@
     background-image: url(/img/hero/hero-tab-1-1x.jpg),
       url(/img/hero/hero-tab-2-1x.jpg);
     background-repeat: no-repeat;
-    background-position: left bottom, right;
+    background-position: left bottom, right bottom;
     background-size: 308px, 364px;
     margin-bottom: 32px;
   }
