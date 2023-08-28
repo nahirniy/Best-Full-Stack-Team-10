@@ -5,6 +5,7 @@ h3 {
 .bestsellers-section {
   padding-bottom: 100px;
   margin: 0 auto;
+  padding-top: 64px;
 }
 
 .bestsellers-title {
@@ -51,6 +52,9 @@ h3 {
 
 /* Tablet */
 @media screen and (min-width: 768px) {
+  .bestsellers-section {
+    padding-top: 100px;
+  }
   .bestsellers-title {
     font-size: 32px;
     line-height: 1.4;

@@ -1,5 +1,5 @@
 .price-section {
-  padding-bottom: 64px;
+  padding-top: 64px;
 }
 
 .price-list {
@@ -55,7 +55,7 @@
 
 @media screen and (min-width: 768px) {
   .price-section {
-    padding-bottom: 100px;
+    padding-top: 100px;
   }
 
   .price-link {
